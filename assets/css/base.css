@@ -2,6 +2,9 @@
     --white-color :#fff;
     --black-color: #000;
     --text-color: #333;
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search: calc(var(--header-height) - var(--navbar-height));
  }
 
  *{
@@ -38,3 +41,30 @@
          opacity: 1;
       }
  }
+.btn{
+   width: 142px;
+   height: 36px;
+   border-color: transparent;
+   font-size: 1.7rem;
+   background-color: transparent;
+   color: black;
+   border-radius: 2px;
+   cursor: pointer;
+}
+.btn.btn--primary{
+   color: white;
+   background-color: #DA4328;
+}
+
+/* lớp giả arrow */
+/* 
+.shopping__cart-items::after{
+    content: "";
+    border-width: 15px 20px;
+    border-style:  solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: -24px;
+    right: 0px;
+}
+*/
