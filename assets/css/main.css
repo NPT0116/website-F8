@@ -1200,10 +1200,13 @@ margin-right: 18px;
     font-size: 1.6rem;
     font-weight: 450;
     margin : 5px 0;
+    align-items: baseline   ;
+    flex-wrap: wrap ;
 }
 .home-product-item__price .home-product-item__price--old
 {
     font-size: 1.4rem;
+    margin-left: 5px;
     color: #666666;
     text-decoration: line-through;
 }
