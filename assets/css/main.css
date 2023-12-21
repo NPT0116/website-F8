@@ -1143,7 +1143,7 @@ ul{
     font-weight: 400;
     padding: 0 14px;
     position: relative;
-    z-index: 1;
+
 
 }
 /* select option */
@@ -1166,6 +1166,7 @@ ul{
     position: absolute;
     top : -1px;
     left: 0;
+
 }
 .select-input__content-box
 {
@@ -1180,6 +1181,7 @@ ul{
     justify-content: center;
     border-radius: 2px;
     padding: 8px 16px;
+    z-index: 1;
 }
 
 .select-input:hover .select-input__content-box
@@ -1418,4 +1420,10 @@ margin-right: 18px;
     border-width: 0 22.5px 6px;
     border-color: transparent rgba(255, 216, 64,0.8) transparent rgba(255, 216, 64,0.8);
     border-top-color: transparent;
+}
+
+
+.pagination__home
+{
+    margin: 48px 0 32px 0;
 }
