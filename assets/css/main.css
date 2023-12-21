@@ -936,6 +936,7 @@ ul{
     box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.09);
     flex-direction: column;
     animation : fadeIn ease-in 0.2s;
+    z-index: 2;
 }
 .header__navbar-items-user-info-list{
     width: 100%;
@@ -1426,4 +1427,10 @@ margin-right: 18px;
 .pagination__home
 {
     margin: 48px 0 32px 0;
+}
+
+
+.footer-home
+{
+
 }

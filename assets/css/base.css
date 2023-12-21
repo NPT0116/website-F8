@@ -95,3 +95,75 @@
 .pagination-item--active .pagination-item-link:hover{
    background-color: #E54C2B;
 }
+
+
+.footer
+{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 35px;
+   border-top: 5px solid var(--primary-color);
+}
+.footer-header
+{
+   display: block;
+   font-size: 1.9rem;
+   font-weight: 1000;
+   margin-bottom: 15px;
+   line-height: 1.2rem;
+}
+.footer-list
+{
+   line-height: 3.3rem;
+}
+.footer-text
+{
+   font-size: 1.5rem;
+   color: #737373;
+   text-decoration: none;
+}
+
+.footer-text:hover
+{
+   color: var(--primary-color);
+
+}
+.footer__qr-img
+{
+   width: 100%;
+   height: auto;
+}
+.footer-qr-code-img
+{
+   display: block;
+   width: 120px;
+   height: 120px;
+}
+.footer-qr-code-list
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer__qrcode-store-img
+{
+   width: 100%;
+   height: auto;
+}
+.footer__download-link
+{
+   display: block;
+   width: 140px;
+   height: auto;
+   margin-left: 30px;
+}
+.footer-copy-right
+{
+   width: 100%;
+   height: 32px;
+   background-color: #F5F5F5;
+   text-align: center;
+   line-height: 32px;
+   font-size: 1.2rem;
+   color: #737373;
+}
